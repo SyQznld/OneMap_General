@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:padding="5dp"
+        android:text="商服用地"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_params"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/tv_name"
+        android:layout_weight="4"
+        android:padding="5dp"
+        android:text="商服用地"
+        android:textColor="#666"
+        android:textSize="13sp" />
+</LinearLayout>
